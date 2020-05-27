@@ -1,0 +1,49 @@
+{
+  "name": "popuper",
+  "version": "1.4.1",
+  "description": "",
+  "main": "dist/popuper.js",
+  "types": "dist/",
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.2",
+    "@types/node": "^13.7.0",
+    "@types/webpack": "^4.41.5",
+    "@types/webpack-dev-server": "^3.10.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 10-11",
+    "> 0.1%"
+  ],
+  "scripts": {
+    "build": "webpack -p --mode=\"production\"",
+    "serve": "webpack-dev-server --mode=\"development\" --",
+    "public": "webpack && npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Color-Kat/Popuper.git"
+  },
+  "author": "ColorKat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Color-Kat/Popuper/issues"
+  },
+  "homepage": "https://github.com/Color-Kat/Popuper#readme",
+  "keywords": [
+    "popup",
+    "pop-up",
+    "window",
+    "windows",
+    "push",
+    "notification",
+    "push notification",
+    "pop-up notification"
+  ]
+}
